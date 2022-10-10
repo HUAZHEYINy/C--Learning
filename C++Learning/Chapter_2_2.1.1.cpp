@@ -8,19 +8,22 @@
 
 #include <iostream>
 #include <thread>
+#include <chrono>
 
 class background_task {
 public:
     void operator() () const {
         std::cout<< "tst!" << std::endl;
+        std::this_thread::sleep_for(std::chrono::milliseconds(10000));
     }
 };
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
+    // insert code here...df
     std::cout << "Hello, World!\n";
     background_task f;
     std::thread my_thread(f);
-    my_thread.join();
+    std::cout << std::thread::hardware_concurrency();
+    my_thread.detach();
     return 0;
 }
