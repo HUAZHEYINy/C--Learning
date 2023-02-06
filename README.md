@@ -17,4 +17,9 @@
 ### Compiler
 计算机很笨，只能理解一种语言就是机器语言(由0和1组成). 为了方便人类编程，人类开发出了高级语言(high level programming language 比如 java, C++). 
 
-把高级语言 翻译成 机器语言 的程序就是编译器(compiler). 
+把高级语言 翻译成 机器语言 的程序就是编译器(compiler).
+
+**题外话** - 通常情况下，我们说c++比java快，在编译运行的角度来说： 
+* java 被compiler编译成bytecode(.class), 之后在JVM中运行的时候被JVM转化成机器语言.
+* c++ 被compiler 直接编译成机器语言，可以直接运行。
+* 注意: 因为java被编译成bytecode，这个bytecode是和JVM适配的，之后无论在什么机器上，只要有JVM 就可以运行这个java程序，这就是所谓的compile once and run anywhere(or platform independent); C++ 是需要根据在什么机器上跑，来使用对应的compiler.
