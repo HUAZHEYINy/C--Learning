@@ -23,3 +23,6 @@
 * java 被compiler编译成bytecode(.class), 之后在JVM中运行的时候被JVM转化成机器语言.
 * c++ 被compiler 直接编译成机器语言，可以直接运行。
 * 注意: 因为java被编译成bytecode，这个bytecode是和JVM适配的，之后无论在什么机器上，只要有JVM 就可以运行这个java程序，这就是所谓的compile once and run anywhere(or platform independent); C++ 是需要根据在什么机器上跑，来使用对应的compiler.
+
+### 为什么叫c++
+c++的作者是 Bjarne Stroustrup(丹麦人), 他在C语言的基础上加上了面向对象的功能(当然还有其他)。另外，java的作者是 James Gosling (加拿大人).
