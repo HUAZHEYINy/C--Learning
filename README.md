@@ -26,3 +26,6 @@
 
 ### 为什么叫c++
 c++的作者是 Bjarne Stroustrup(丹麦人), 他在C语言的基础上加上了面向对象的功能(当然还有其他)。另外，java的作者是 James Gosling (加拿大人).
+
+### c++的版本
+c++ 从最初的版本(1979年)开始到现在已经有大概7个阶段， 其中在C++ 98/03阶段我们加入了很多现在被广泛使用的一些功能比如smart pointer tec. 基本上C++11(2011) 之后现在广泛使用的工具都有了。Reference: [C++ History](https://en.cppreference.com/w/cpp/language/history)
