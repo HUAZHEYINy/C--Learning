@@ -6,12 +6,20 @@
 2. 最好的c++ 学习resources -  https://cplusplus.com/doc/tutorial/
 
 ## 一些主题
+### Preprocessor Statement 
+* 比如 # include 或者 # define etc. 
+* it's evaludated before compilation; it's essentially copy and paste the file into the current file.
+### Compiler 
+1. Preprocessing - mentioned above; the output 是 pure c++ file without pre-procesor directives
+2. Compiling - compiler 用pure c++ file作为input 产出object file; one object file per c++ file.
+3. Linking - Linker 把object files 进行缝合在一起 产出 静态c++ lib 或者 executable binary;
 ### L-value & R-value
 ### Smart Pointer & Raw Pointer 
 ### Function Return Type
 ### Function Input Type 
 ### Lambda Expression
 ### Co-routine 
+
 
 ## 一些基础中的基础
 ### Compiler
