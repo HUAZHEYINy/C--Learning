@@ -13,6 +13,7 @@
 1. Preprocessing - mentioned above; the output 是 pure c++ file without pre-procesor directives
 2. Compiling - compiler 用pure c++ file作为input 产出object file; one object file per c++ file.
 3. Linking - Linker 把object files 进行缝合在一起 产出 静态c++ lib 或者 executable binary;
+4. Good resource - https://stackoverflow.com/questions/6264249/how-does-the-compilation-linking-process-work#
 ### L-value & R-value
 ### Smart Pointer & Raw Pointer 
 ### Function Return Type
