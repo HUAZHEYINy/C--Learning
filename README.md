@@ -11,8 +11,12 @@
 * it's evaludated before compilation; it's essentially copy and paste the file into the current file.
 ### Compiler 
 1. Preprocessing - mentioned above; the output 是 pure c++ file without pre-procesor directives
-2. Compiling - compiler 用pure c++ file作为input 产出object file; one object file per c++ file; object file中的dependency 可以使用declaration而不是真正的实现。
-4. Linking - Linker 把object files 进行缝合在一起 产出 静态c++ lib 或者 executable binary;
+2. Compiling - 
+  * compiler 用pure c++ file作为input 产出object file; 
+  * one object file per c++ file;  
+  * object file中的dependency 可以使用declaration而不是真正的实现。
+3. Linking - 
+  * Linker 把object files 进行缝合在一起 产出 静态c++ lib 或者 executable binary - 比如在compiling 的时候我们只用了declaration，在linking阶段我们会把真正的definition找到并linking在一起。
 5. Good resource - https://stackoverflow.com/questions/6264249/how-does-the-compilation-linking-process-work#
 ### L-value & R-value
 ### Smart Pointer & Raw Pointer 
