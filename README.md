@@ -21,7 +21,7 @@
 * Simply put - (not always true but most of the times) L-value is on the left side of the expression; R-value is on the right side of the expression.
 * L-value is a permanent value which has storage in mem and R-value is a temporary value.
 * Prior to C++ 11, only L-value and R-value exist; after that, we have L-value; R-value(pr-value or xvalue); glvalue. see [full list](https://en.cppreference.com/w/cpp/language/value_category) of values.
-* L-value reference e.g std::string& is the reference of a L-value; R-value reference e.g std::string&& is the reference of a R-value. NOTE: we can bind a const L-value reference to a R-value reference. 
+* L-value reference e.g std::string& is the reference of a L-value; R-value reference e.g std::string&& is the reference of a R-value. [NOTE: we can bind a const L-value reference to a R-value reference](https://stackoverflow.com/questions/40873500/binding-rvalue-to-const-lvalue-reference).
 ### Smart Pointer & Raw Pointer 
 ### Function Return Type
 ### Function Input Type 
