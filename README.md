@@ -17,7 +17,11 @@
   * object file中的dependency 可以使用declaration而不是真正的实现。
 3. Linking - 
   * Linker 把object files 进行缝合在一起 产出 静态c++ lib 或者 executable binary - 比如在compiling 的时候我们只用了declaration，在linking阶段我们会把真正的definition找到并linking在一起。[Good resource](https://stackoverflow.com/questions/3368121/how-does-a-c-c-compiler-find-the-definitions-of-prototypes-in-header-files)
-### L-value & R-value
+### L-value & R-value 
+* Simply put - (not always true but most of the times) L-value is on the left side of the expression; R-value is on the right side of the expression.
+* L-value is a permanent value which has storage in mem and R-value is a temporary value.
+* Prior to C++ 11, only L-value and R-value exist; after that, we have L-value; R-value(pr-value or xvalue); glvalue. see [full list](https://en.cppreference.com/w/cpp/language/value_category) of values.
+* L-value reference e.g std::string& is the reference of a L-value; R-value reference e.g std::string&& is the reference of a R-value. NOTE: we can bind a const L-value reference to a R-value reference. 
 ### Smart Pointer & Raw Pointer 
 ### Function Return Type
 ### Function Input Type 
