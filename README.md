@@ -23,6 +23,7 @@
 * Prior to C++ 11, only L-value and R-value exist; after that, we have L-value; R-value(pr-value or xvalue); glvalue. see [full list](https://en.cppreference.com/w/cpp/language/value_category) of values.
 * L-value reference e.g std::string& is the reference of a L-value; R-value reference e.g std::string&& is the reference of a R-value. [NOTE: we can bind a const L-value reference to a R-value reference](https://stackoverflow.com/questions/40873500/binding-rvalue-to-const-lvalue-reference).
 ### Smart Pointer & Raw Pointer 
+* Understand what is **Pointer**. [Very good resource!](https://cplusplus.com/doc/tutorial/pointers/)
 ### Function Return Type
 ### Function Input Type 
 ### Lambda Expression
