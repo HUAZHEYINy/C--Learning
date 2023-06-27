@@ -35,6 +35,9 @@
     * multiple owners - implemented using referencing counting; it will remove the memory only when all of the owners are out of scope.
     * can be re-assigeng which will increase the reference count; 
   * std::weak_ptr: no owner - it's like - check before use.
+ 
+### Move Semantics 
+TODO: Add more details
 ### Function Return Type
 ### Function Input Type 
 ### Lambda Expression
