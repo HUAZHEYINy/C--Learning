@@ -24,6 +24,10 @@
 * L-value reference e.g std::string& is the reference of a L-value; R-value reference e.g std::string&& is the reference of a R-value. [NOTE: we can bind a const L-value reference to a R-value reference](https://stackoverflow.com/questions/40873500/binding-rvalue-to-const-lvalue-reference).
 ### Smart Pointer & Raw Pointer 
 * Understand what is **Pointer**. [Very good resource!](https://cplusplus.com/doc/tutorial/pointers/)
+* Understand what is **Stack** and **Heap**. [Good resource 1](https://courses.engr.illinois.edu/cs225/fa2022/resources/stack-heap/#:~:text=stack%20%3A%20stores%20local%20variables,stores%20the%20code%20being%20executed) and [Good resource 2](https://www.cs.fsu.edu/~myers/c++/notes/dma.html)
+  * Stack stores the data that is not dynamically allocated e.g local variables; (global variable and static are different story. igonre them for now)
+  * Heap stores the data that is allocated dynamically. e.g `MyClass* obj = new MyClass();` it **requires** us to remove the allocated memory once its done. e.g `delete obj;`
+* Smart Pointer - e.g `std::unique_ptr, std::shared_ptr, std::weak_ptr` are here to help us remove the allocat ed memory **automatically**. 
 ### Function Return Type
 ### Function Input Type 
 ### Lambda Expression
