@@ -27,6 +27,11 @@
 * Understand what is **Stack** and **Heap**. [Good resource 1](https://courses.engr.illinois.edu/cs225/fa2022/resources/stack-heap/#:~:text=stack%20%3A%20stores%20local%20variables,stores%20the%20code%20being%20executed) and [Good resource 2](https://www.cs.fsu.edu/~myers/c++/notes/dma.html)
   * Stack stores the data that is not dynamically allocated e.g local variables; (global variable and static are different story. igonre them for now)
   * Heap stores the data that is allocated dynamically. e.g `MyClass* obj = new MyClass();` it **requires** us to remove the allocated memory once its done. e.g `delete obj;`
+  * Storage Duration
+    * **automatic** - the variables that are created without new and not static; it will be destroyed when it's out of scope.
+    * **static** - the variables that are allocated before the program begins, and destroyed when the program ends.
+    * **dynamic** - the variables that are created with `new` keyword; must use `delete`.
+    * **thread** - the variables that are allocated in thread storage will be removed when threads end.
 * Smart Pointer - e.g `std::unique_ptr, std::shared_ptr, std::weak_ptr` are here to help us remove the allocated memory **automatically** based on the smart pointer we used.
   * std::unique_ptr
     * single owner; when the single owner is out of scope, it will remove the memory automatically;
