@@ -38,7 +38,7 @@
     * can not be re-assigned as copy constructor and assingment operator are deleted. Can only be `std::move`.
   * std::shared_ptr:
     * multiple owners - implemented using referencing counting; it will remove the memory only when all of the owners are out of scope.
-    * can be re-assigeng which will increase the reference count; 
+    * when it's copied then the `use_count` is increased. 
   * std::weak_ptr: no owner - it's like - check before use.
  
 ### Move Semantics 
