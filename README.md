@@ -47,10 +47,11 @@ TODO: Add more details
 ### Function Return Type
 ### Function Input Type 
 ### Lambda Expression
-### Copy Constructor & Copy Assigment Operator
 TODO: Add more details.
 ### Co-routine  
 ### Different Constuctors
+* 
+(copy assignment operator)
 TODO: Add content. 
 
 ### 其他
