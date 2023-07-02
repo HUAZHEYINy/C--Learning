@@ -47,11 +47,14 @@ TODO: Add more details
 ### Function Return Type
 ### Function Input Type 
 ### Lambda Expression
-### Copy Constructor & Assigment Operator
+### Copy Constructor & Copy Assigment Operator
 TODO: Add more details.
 ### Co-routine  
 ### Different Constuctors
-TODO: Add content.
+TODO: Add content. 
+
+### 其他
+1. [Rule of Three and Rule of Five](https://en.wikipedia.org/wiki/Rule_of_three_%28C++_programming%29)
 
 
 ## 一些基础中的基础
