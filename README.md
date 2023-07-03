@@ -49,10 +49,26 @@ TODO: Add more details
 ### Lambda Expression
 TODO: Add more details.
 ### Co-routine  
-### Different Constuctors
-* 
-(copy assignment operator)
-TODO: Add content. 
+### Constuctors & Rule of five
+* Default Constructor 
+  * Constructor that has no any arg 
+* Parameterized Constructor 
+  * has args
+  * style_1: Member initializer list 
+    1. the constructor will be called once and the object will be constructed and intialized in one operation.    
+  * style_2: Member assigment
+    1. the fields will first be initialized with default constructor and then reassigned(via assigment operator) with the actual values.
+* NOTE
+  * Initialization order: 
+    * Fields are initialized as the order in which they are declared in the class definition. Field before the class constructor itself.
+    * Parent class will be initialized before child.
+    * Basically: Parent > Fields > Current Class Constructor.
+  * Destruction order: 
+    * In reverse order of initialization.
+
+* Copy Constructor & Assignment Operator 
+ * Copy constructor is used when we are creating **a new object** from **an existing object**. Including pass by value; returned by value etc.
+ * Assignment operator is used when we are assigning one **existing object** to another **existing object** 
 
 ### 其他
 1. [Rule of Three and Rule of Five](https://en.wikipedia.org/wiki/Rule_of_three_%28C++_programming%29)
