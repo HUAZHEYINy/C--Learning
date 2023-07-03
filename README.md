@@ -44,8 +44,6 @@
  
 ### Move Semantics 
 TODO: Add more details
-### Function Return Type
-### Function Input Type 
 ### Lambda Expression
 TODO: Add more details.
 ### Co-routine  
