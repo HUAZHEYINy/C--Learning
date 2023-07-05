@@ -41,9 +41,7 @@
     * when it's copied then the `use_count` is increased.
     * why we `std::move` a shared pointer - [good answer](https://stackoverflow.com/questions/41871115/why-would-i-stdmove-an-stdshared-ptr)
   * std::weak_ptr: no owner - it's like - check before use.
- 
-### Move Semantics 
-TODO: Add more details
+
 ### Lambda Expression
 TODO: Add more details.
 ### Co-routine  
@@ -65,8 +63,14 @@ TODO: Add more details.
     * In reverse order of initialization.
 
 * Copy Constructor & Assignment Operator 
- * Copy constructor is used when we are creating **a new object** from **an existing object**. Including pass by value; returned by value etc.
- * Assignment operator is used when we are assigning one **existing object** to another **existing object** 
+  * Copy constructor is used when we are creating **a new object** from **an existing object**. Including pass by value; returned by value etc.
+  * Assignment operator is used when we are assigning one **existing object** to another **existing object** 
+
+* Move Constructor & Move Assignment Operator
+   * Move constructor is similar to copy constructor BUT it's dealing with rvalue.
+   * Move assignment operator is similar to assignment operator BUT it's dealing with rvalue reference.
+   * [Good resource 1](https://www.youtube.com/watch?v=OWNeCTd7yQE&t=198s) and [2](https://www.youtube.com/watch?v=ehMg6zvXuMY) And see our repo `Move.cpp`
+
 
 ### 其他
 1. [Rule of Three and Rule of Five](https://en.wikipedia.org/wiki/Rule_of_three_%28C++_programming%29)
