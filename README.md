@@ -71,7 +71,8 @@ TODO: Add more details.
    * Move assignment operator is similar to assignment operator BUT it's dealing with rvalue reference.
    * [Good resource 1](https://www.youtube.com/watch?v=OWNeCTd7yQE&t=198s) and [2](https://www.youtube.com/watch?v=ehMg6zvXuMY) And see our repo `Move.cpp`
 
-
+### Data Structure 
+* This is a good resource to get a full list of most common data structure. https://cs61.seas.harvard.edu/site/2021/Section1/#:~:text=C%2B%2B%20comes%20with%20a%20large,set%20and%20std%3A%3Aunordered_set%20).
 ### 其他
 1. [Rule of Three and Rule of Five](https://en.wikipedia.org/wiki/Rule_of_three_%28C++_programming%29)
 
