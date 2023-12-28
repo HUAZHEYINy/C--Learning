@@ -1,3 +1,6 @@
 C++Learning.xcodeproj/*
 .DS_Store
 *.out
+*
+!/**/
+!*.*
